@@ -1,0 +1,606 @@
+[v-cloak] {
+    display: none
+}
+
+.clearBox::after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+#content {
+    margin-bottom: 4rem
+}
+
+#orderInfo .orderInfo_address {
+    font-size: 1.8rem;
+    padding: 10px;
+    background: url('../images/address.png') left bottom repeat-x;
+    padding-top: 10px;
+    background-size: 70px auto;
+    padding-bottom: 20px
+}
+
+#orderInfo .orderInfo_address>a {
+    display: block;
+    color: #333
+}
+
+#orderInfo .orderInfo_address>a>i {
+    float: left;
+    margin-top: 3rem;
+    font-size: 2rem;
+    width: 5%;
+    margin-right: .5rem;
+    text-align: center
+}
+
+#orderInfo .orderInfo_address_top {
+    padding: .5rem 0rem;
+    font-size: 1.4rem
+}
+
+#orderInfo .orderInfo_address_top>span:first-child {
+    display: inline-block;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#orderInfo .orderInfo_address_top>span:nth-child(2) {
+    display: inline-block;
+    width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: right
+}
+
+#orderInfo .orderInfo_address_foot {
+    font-size: 1.4rem
+}
+
+#orderInfo .orderInfo_address_left {
+    width: 85%;
+    float: left
+}
+
+#orderInfo .orderInfo_address_right {
+    float: right;
+    margin-top: 2rem;
+    text-align: right;
+    width: 5%
+}
+
+#orderInfo .orderInfo_address_right i {
+    font-size: 1.8rem
+}
+
+#orderInfo .Orderdetail_purchase {
+    border-bottom: 1px solid #ece8e8
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a {
+    display: block
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a>div>p:nth-child(2) {
+    font-size: 1rem;
+    color: #aaa
+}
+
+#orderInfo .Orderdetail_purchase>div {
+    font-size: 1.6rem;
+    padding: 10px;
+    border-top: 1px solid #ece8e8
+}
+
+#orderInfo .Orderdetail_purchase>div i {
+    font-size: 1.8rem
+}
+
+#orderInfo .Orderdetail_purchase>ul {
+    padding: 0 10px
+}
+
+#orderInfo .Orderdetail_purchase>ul>li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ece8e8
+}
+
+#orderInfo .Orderdetail_purchase>ul>li:last-child {
+    border-bottom: 0
+}
+
+#orderInfo .Orderdetail_purchase>ul>li a img {
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    border-radius: 8px;
+    background-color: #fff
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a div {
+    float: left;
+    font-size: 1.4rem;
+    vertical-align: middle
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a>div:nth-child(2) {
+    width: 68%;
+    margin-left: 1rem
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a>div>p {
+    display: block;
+}
+
+#orderInfo .Orderdetail_purchase>ul>li>a>div>p:last-child {
+    padding-top: .5rem
+}
+
+#orderInfo .pay_listInfo {
+    padding: 10px
+}
+
+#orderInfo .pay_listInfo>p i {
+    vertical-align: middle;
+    font-size: 1.3rem
+}
+
+#orderInfo .pay_listInfo>p span {
+    vertical-align: middle;
+    font-size: 1.6rem
+}
+
+#orderInfo .pay_listInfo ul,
+.distribution_info ul {
+    margin-top: 1rem;
+    font-size: 1.4rem
+}
+
+#orderInfo .pay_listInfo ul li,
+.distribution_info ul li {
+    display: inline-block;
+    border: 1px solid #aaa;
+    margin-right: 1rem;
+    text-align: center;
+    width: 20%;
+    min-width: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 3rem;
+    line-height: 2.8rem
+}
+
+#orderInfo .pay_listInfo ul li {
+    width: 32%
+}
+
+#orderInfo .pay_listInfo ul li img {
+    vertical-align: middle;
+    width: 2rem
+}
+
+#orderInfo .pay_listInfo ul li span {
+    vertical-align: middle
+}
+
+#orderInfo .pay_listInfo ul li.active,
+.distribution_info ul li.active {
+    border: 1px solid #ea3340
+}
+
+#orderInfo .distribution_info {
+    padding: 10px
+}
+
+#orderInfo .distribution_info>p {
+    font-size: 1.8rem
+}
+
+#orderInfo .distribution_info>p i {
+    font-size: 1.8rem;
+    vertical-align: middle
+}
+
+#orderInfo .distribution_info>p span {
+    font-size: 1.6rem;
+    vertical-align: middle
+}
+
+#orderInfo .orderInfo_invoice {
+    padding: 10px
+}
+
+#orderInfo .orderInfo_invoice p:first-child {
+    float: left;
+    font-size: 1.6rem
+}
+
+#orderInfo .orderInfo_invoice p:nth-child(2) {
+    float: right;
+    font-size: 1.6rem;
+    text-align: right
+}
+
+#orderInfo .orderInfo_invoice p i {
+    font-size: 1.6rem;
+    vertical-align: middle;
+    color: #333
+}
+
+#orderInfo .orderInfo_couponclearBox {
+    padding: 10px;
+    font-size: 1.8rem
+}
+
+#orderInfo .orderInfo_couponclearBox>p:nth-child(1) {
+    float: left
+}
+
+#orderInfo .orderInfo_couponclearBox>p:nth-child(2) {
+    float: right
+}
+
+#orderInfo .orderInfo_price {
+    padding: 15px 10px
+}
+
+#orderInfo .orderInfo_price li {
+    font-size: 1.8rem
+}
+
+#orderInfo .orderInfo_price li p:nth-child(1) {
+    float: left;
+    font-size: 1.6rem
+}
+
+#orderInfo .orderInfo_price li p:nth-child(2) {
+    float: right;
+    color: #ea3340
+}
+
+#orderInfo footer {
+    position: fixed;
+    max-width: 720px;
+    width: 100%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    bottom: 0;
+    text-align: right;
+    font-size: 1.6rem;
+    background: #fff;
+    padding-left: 10px;
+    border-top: 1px solid #ddd
+}
+
+#orderInfo footer>p {
+    display: inline-block
+}
+
+#orderInfo footer>p:nth-child(1) {
+    color: #ea3340;
+    padding-right: 1rem;
+    text-align: left;
+    float: left
+}
+
+#orderInfo footer>a {
+    float: right
+}
+
+#orderInfo footer>a>p {
+    padding: 0 2rem;
+    background: #ea3340;
+    color: #fff;
+    margin-top: -1px
+}
+
+#payment .orderPay_Money {
+    padding: 10px;
+    font-size: 1.6rem
+}
+
+#payment .orderPay_Money p span {
+    color: #ea3340
+}
+
+#payment .orderPay_List {
+    font-size: 1.8rem
+}
+
+#payment .orderPay_List>div {
+    font-size: 1.6rem;
+    padding: 10px 10px;
+    color: #81838c;
+    border-bottom: 1px solid #ece8e8
+}
+
+#payment .orderPay_List ul {
+    padding: 10px 10px
+}
+
+#payment .orderPay_List ul>li {
+    border-bottom: 1px solid #ece8e8;
+    padding: 10px 0
+}
+
+#payment .orderPay_List ul>li:last-child {
+    border-bottom: 0
+}
+
+#payment .orderPay_List ul li>img {
+    width: 3.5rem;
+    height: 3.5rem;
+    vertical-align: middle;
+    float: left
+}
+
+#payment .orderPay_List ul li>div {
+    display: inline-block;
+    vertical-align: middle
+}
+
+#payment .orderPay_List ul li>div:nth-child(2) {
+    padding-left: 1rem;
+    float: left;
+    margin-top: .7rem
+}
+
+/* #payment .orderPay_List ul li>div:nth-child(3) {
+    float: right;
+    margin-top: 1rem
+} */
+
+#payment .orderPay_List ul li > .selectBtn {
+    float: right;
+    margin-top: 0.9rem
+}
+
+#payment .orderPay_List ul li .phone-input {
+    margin: 0.6rem 0 0 1rem;
+    color: #dcdedc;
+    float: left;
+}
+#payment .orderPay_List ul li .phone-input input {
+    width: 110px;
+    height: 2rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.4rem;
+    float: left;
+}
+
+#payment .orderPay_List ul li .phone-input > span {
+    float: right;
+}
+
+#payment .orderPay_List ul li>div p:nth-child(2) {
+    color: #81838c;
+    font-size: 1rem
+}
+
+#payment .orderPay_List ul li i {
+    vertical-align: middle;
+    font-size: 2rem;
+    text-align: right;
+    cursor: pointer
+}
+
+#payment footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 720px;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #df443b
+}
+
+#orderdetail .orderdetail_stas span {
+    color: #e45050
+}
+
+#orderdetail .Orderdetail_addressInfo {
+    padding: 20px 10px
+}
+
+#orderdetail .Orderdetail_addressInfo>div {
+    float: left
+}
+
+#orderdetail .Orderdetail_addressInfo>div:nth-child(1) {
+    padding-right: .5rem;
+    margin-top: 2.7rem
+}
+
+#orderdetail .Orderdetail_addressInfo>div:nth-child(2) {
+    width: 88%
+}
+
+#orderdetail .Orderdetail_addressInfo>div>p:nth-child(2),
+#orderdetail .Orderdetail_purchase>ul>li>div>p:nth-child(2) {
+    font-size: 1.5rem;
+    color: #aaa;
+    padding-top: 5px
+}
+
+#orderdetail .Orderdetail_addressInfo>div>p>span:nth-child(1) {
+    display: inline-block;
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#orderdetail .Orderdetail_addressInfo>div>p>span:nth-child(2) {
+    float: right;
+    margin-top: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 40%
+}
+
+#orderdetail .Orderdetail_purchase>div {
+    padding: 10px 20px;
+    border-bottom: 1px solid #ece8e8
+}
+
+#orderdetail .Orderdetail_purchase>ul>li {
+    padding: 10px 10px;
+    border-bottom: 1px solid #ece8e8
+}
+
+#orderdetail .Orderdetail_purchase>ul>li img {
+    width: 7rem;
+    height: 7rem;
+    border: 1px solid #aaa;
+    vertical-align: middle;
+    border-radius: 8px;
+    background-color: #fff
+}
+
+#orderdetail .Orderdetail_purchase>ul>li div {
+    float: left;
+    vertical-align: middle
+}
+
+#orderdetail .Orderdetail_purchase>ul>li div:nth-child(2) {
+    width: 67%;
+    margin-left: .8rem
+}
+
+#orderdetail .Orderdetail_purchase>ul>li div>p {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+#orderdetail .Orderdetail_purchase>ul>li>div button {
+    height: 26px;
+    line-height: 26px;
+    padding: 1px 19px;
+    background-color: #aaa;
+    overflow: hidden;
+    color: black;
+    font-size: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    float: right;
+    margin-top: .8rem
+}
+
+#orderdetail .Orderdetail_purchase>ul>li>div>p:last-child {
+    padding-top: .5rem
+}
+
+#orderdetail .Orderdetail_OrderInformation {
+    padding: 0 10px
+}
+
+#orderdetail .Orderdetail_OrderInformation>div {
+    padding: 15px 0;
+    border-bottom: 1px solid #ece8e8
+}
+
+#orderdetail .Orderdetail_OrderInformation>div:last-child {
+    border-bottom: 0
+}
+
+#orderdetail .Orderdetail_OrderInformation>div>p,
+#orderdetail .Orderdetail_OrderInformation>div>.payment_state {
+    padding: .2rem
+}
+
+#orderdetail .Orderdetail_OrderInformation>div>.payment_state div {
+    float: left
+}
+
+#orderdetail .Orderdetail_OrderInformation>div>.payment_state button {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background-color: #e45050;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+    float: right
+}
+
+#orderdetail .Orderdetail_amount {
+    padding: 10px
+}
+
+#orderdetail .Orderdetail_amount div {
+    padding: 2px 0
+}
+
+#orderdetail .Orderdetail_amount>div>div {
+    float: left
+}
+
+#orderdetail .Orderdetail_amount>div>div:nth-child(2) {
+    float: right
+}
+
+#orderdetail footer {
+    position: fixed;
+    max-width: 720px;
+    width: 100%;
+    height: 4rem;
+    line-height: 4.2rem;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    background: #df443b;
+    border-top: 1px solid #ddd;
+}
+
+#orderdetail footer>p {
+    float: left;
+    padding-left: 20px
+}
+
+#orderdetail footer>span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#orderdetail footer>span.activestas {
+    background: #ccc;
+    color: #f7f7f7;
+    border-color: #ccc
+}
+
+.Orderdetail_purchase ul>li>a div .prodctStort span {
+    background: #aaa7a7;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+    display: inline-block
+}
+
+#orderdetail.procollect div.noProduct {
+    width: 12rem;
+    height: 12rem;
+    background: url(../images/favourite.png)no-repeat center;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 8rem
+}

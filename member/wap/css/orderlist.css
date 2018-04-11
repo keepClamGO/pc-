@@ -1,0 +1,191 @@
+/*orderlist*/
+#orderList,#orderList body{
+    height:100%;
+}
+#orderList #content.orderlist-box{
+    min-height:100%;
+}
+#orderList #content .orderlist-header{
+    background:#f9f9f9;
+    position:absolute;
+    top:0rem;
+}
+#orderList #content .orderlist-header.Fixed{
+    position:fixed;
+}
+
+#orderList .orderlist-nav{
+    height:4rem;
+    border-bottom:#e7e7e7 1px solid;
+    background:#f9f9f9;
+    width:100%;
+    max-width:720px;
+    position:absolute;
+    top:4rem;
+    z-index:99;
+}
+#orderList .orderlist-nav.Fixed{
+    position:fixed;
+}
+#orderList .orderlist-nav li{
+    float:left;
+    width:20%;
+    height:4rem;
+    text-align:center;
+}
+#orderList .orderlist-nav li span{
+    display:inline-block;
+    height:4rem;
+    line-height:4rem;
+    border-bottom:1px;
+    color: #161616;
+    font-size:1.4rem;
+}
+#orderList .orderlist-nav li span.on{
+    border-bottom:1px solid #ec5e2a;
+}
+#orderList .orderlist-content{
+    min-height:100%;
+    padding-top:8rem;
+}
+#orderList .orderlist-order{
+    margin-top:1rem;
+}
+#orderList .orderlist-order:first-of-type{
+    margin-top:0;
+}
+#orderList .orderlist-order-header{
+    height:4rem;
+    line-height:4rem;
+    padding-left:0.8rem;
+    padding-right:1rem;
+    background:#ffffff;
+    font-size:1.4rem;
+}
+#orderList .orderlist-order-header .order-list-orderStatus{
+    float:right;
+    color:#df443b;
+}
+#orderList .orderlist-order-body .orderlist-good>div{
+    float:left;
+}
+#orderList .orderlist-good{
+    padding:0.6rem 1rem;
+    background:#fafafa;
+    margin-top:1px;
+}
+#orderList .orderlist-good:first-of-type{
+    margin-top:0;
+}
+#orderList .orderlist-goodImg img{
+    width:7rem;
+    height:7rem;
+}
+#orderList .orderlist-goodDes{
+    width:calc( 100% - 15rem );
+    padding-left:1rem;
+}
+#orderList .orderlist-goodDes p{
+    font-size:1.4rem;
+    line-height:1.6rem;
+    display:-webkit-box;
+    text-overflow:ellipsis;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:5;
+    overflow:hidden;
+    color:#3e4244;
+}
+#orderList .orderlist-goodPri{
+    font-size:1.4rem;
+    width:7rem;
+    text-align:right;
+}
+#orderList .orderlist-goodPri p{
+    line-height:1.8rem;
+}
+#orderList .orderlist-slpic{
+    color:#3e4244;
+}
+#orderList .orderlist-mktpic{
+    text-decoration: line-through;
+    color:#999999;
+}
+#orderList .orderlist-count{
+    color:#999999;
+}
+#orderList .orderlist-computed{
+    height:4rem;
+    padding: 0 1rem;
+    background:#ffffff;
+    font-size:1.4rem;
+}
+#orderList .orderlist-computed p{
+    line-height:4rem;
+    text-align:right;
+}
+#orderList .orderlist-computed p span{
+    font-size:1.6rem;
+}
+#orderList .orderlist-footer{
+    padding: 0 1rem;
+    text-align:right;
+    height:5rem;
+    line-height:5rem;
+    border-top:1px solid #e7e7e7;
+    background:#fff;
+}
+#orderList .orderlist-footer button{
+    padding:0.5rem 0;
+    border-radius:1.8rem;
+    outline:none;
+    border:solid 1px #aaaaaa;
+    background:#fff;
+    margin-left:0.8rem;
+    font-size:1.4rem;
+    width: 90px;
+}
+#orderList .orderlist-footer>.btn0,#orderList .orderlist-footer>.btn4,#orderList .orderlist-footer>.btn6{
+    border-color:#df443b;
+    color:#fff;
+    background:#df443b;
+    /*#11c514*/
+}
+#orderList .orderlist-footer .reminded{
+    background:#ccc;
+    color:#f7f7f7;
+    border-color:#ccc;
+}
+#orderList .orderlist-empty{
+    height:calc( 100% - 4rem ) ;
+    position:relative;
+    top:8rem;
+    display:none;
+}
+#orderList .orderlist-empty>div{
+    position:absolute;
+    top:20%;
+    left:50%;
+    transform:translate(-50%);
+}
+#orderList .orderlist-empty>div>div{
+    width:12rem;
+    height:12rem;
+    background:url('../images/ouerpro.png')no-repeat center;
+    background-size:cover;
+    margin:0 auto;
+}
+#orderList .orderlist-empty>div>h3{
+    margin-top:1.5rem;
+    font-size:1.8rem;
+    text-align:center;
+}
+#orderList .orderlist-empty>div>a>p{
+    margin-top:1rem;
+    color:#FF4500;
+    text-align:center;
+    
+}
+#orderList .orderlist-empty>div>a{
+    text-decoration:underline;
+    color:#FF4500;
+}

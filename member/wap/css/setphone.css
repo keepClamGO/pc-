@@ -1,0 +1,145 @@
+#setphone .setPhone-box{
+    width: 100%;
+    height: auto;
+}
+#setphone .setPhone-box .m-phoneBorder{
+    border-bottom: 1px solid #ddd;
+}
+#setphone .setPhone-box .public_labelAct{
+    width: 100%;
+}
+#setphone .setPhone-box .public_labelAct .m_title{
+    width: 24%;
+}
+#setphone .setPhone-box .public_labelAct .m-phoneVal{
+    width: 76%;
+    float: right;
+}
+#setphone .setPhone-box .public_labelAct .m_title{
+    font-size: 1.4rem;
+}
+#setphone .setPhone-box .public_labelAct .m-phoneVal .phoneArea{
+    float: right;
+    width: 92%;
+    padding-right: 2%;
+    line-height: 5rem;
+    direction:rtl;
+    font-size: 1.4rem;
+    outline: none;
+    border: 0;
+    appearance:none;
+    -o-appearance:none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+#setphone .setPhone-box .public_labelAct .m-phoneVal .phoneArea::-ms-expand { display: none; }
+#setphone .setPhone-box .m-phoneVal .m-phoneArea{
+    width: 100%;
+    outline: none;
+    border: 0;
+    font-size: 1.4rem;
+    text-align: right;
+    color: #666;
+}
+#setphone .setPhone-box .m-phoneVal .m-newPhoneVal{
+    border: 0;
+    font-size: 1.4rem;
+    text-align: left;
+    width: 100%;
+    height: 5rem;
+    outline: none;
+}
+#setphone .setCode-box .m-codeCon input::-webkit-input-placeholder,
+#setphone .setPhone-box .m-phoneVal input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#ccc;
+}
+#setphone .setCode-box .m-codeCon input::-webkit-input-placeholder,
+#setphone .setPhone-box .m-phoneVal input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#ccc;
+}
+#setphone .setCode-box .m-codeCon input::-webkit-input-placeholder,
+#setphone .setPhone-box .m-phoneVal input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#ccc;
+}
+#setphone .setCode-box .m-codeCon input::-webkit-input-placeholder,
+#setphone .setPhone-box .m-phoneVal input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#ccc;
+}
+#setphone .content_section .mem-spac {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #df443b;
+}
+/*验证码*/
+#setphone .setCode-box{
+    width: 100%;
+    height: auto;
+}
+#setphone .setCode-box .public_labelAct{
+    background-color: #fff;
+}
+#setphone .setCode-box .public_labelAct .m_title{
+    width: 20%;
+    font-size: 1.6rem;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+#setphone .setCode-box .m-codeTxt{
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+    padding: 40px 0;
+}
+#setphone .setCode-box .m-codeTxt .code-notice{
+    font-size: 2.4rem;
+    color: #599cdd;
+}
+#setphone .setCode-box .m-codeTxt .m-codeSpan{
+    display: block;
+}
+#setphone .setCode-box .m-codeTxt .m-codeNum{
+    font-weight: bold;
+    font-size: 2.2rem;
+    line-height: 3rem;
+}
+#setphone .setCode-box .public_labelAct .m-codeValBox{
+    width: 80%;
+    float: right;
+}
+#setphone .setCode-box .public_labelAct .m-codeValBox .m-regainCode:before{
+    content: "|";
+    display: inline-block;
+    width: 10px;
+    padding-right: 6px;
+}
+#setphone .setCode-box .public_labelAct .m-codeValBox .m-regainCode{
+    float: right;
+    width: 120px;
+    font-size: 1.4rem;
+    color: #ccc;
+    text-align: right;
+    padding-right: 4px;
+}
+#setphone .setCode-box .public_labelAct .m-codeValBox .m-codeCon{
+    float: right;
+    width: calc(100% - 120px);
+}
+#setphone .setCode-box .public_labelAct .m-codeValBox .m-newPhoneVal{
+    border: 0;
+    font-size: 1.5rem;
+    text-align: left;
+    width: 100%;
+    height: 5rem;
+    outline: none;
+    padding-left: 1rem;
+}
+/*修改完成*/
+#setphone .setCode_complete .pwdUpdate-box{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 10rem;
+    line-height: 10rem;
+}

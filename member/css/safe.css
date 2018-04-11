@@ -1,0 +1,387 @@
+.safe .fl{float: left;}
+.safe .fr{float: right;}
+.safe .hide{display: none !important}
+.safe .input-700{width: 700px;}
+.safe .input-500{width: 500px;}
+.safe .input-400{width: 400px;}
+.safe .input-300{width: 300px;}
+.safe .input-200{width: 200px;}
+.safe .input-150{width: 150px;}
+.safe .input-130{width: 130px;}
+.safe .input-110{width: 110px;}
+.safe .input-80{width: 80px;}
+.safe .input-60{width: 60px;}
+.safe .mainContent{
+	/*padding: 20px;*/
+	width: calc(100% - 40px);
+	box-sizing: border-box;
+	position:relative;
+}
+.safe .mainContent > h2{
+    border-left: 3px solid #e8514a;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 20px;
+    color: #e8514a;
+    padding-left: 5px;
+}
+.safe .MsgTitle{
+	margin:20px 0 35px 0;
+}
+.safe .MsgTitle .pic{
+	float: left;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-o-border-radius: 50%;
+	-moz-border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 120px;
+	overflow: hidden;
+	border: 1px solid #eee;
+	position:relative;
+	/* background: url(../images/user-logo.png) no-repeat center center;
+	background-size: 100% 100%; */
+}
+.safe .MsgTitle .pic > img{
+	/* max-width: 100%;
+	max-height: 100%;  */
+	vertical-align: middle;
+}
+.safe .MsgTitle .title{
+	display: block;
+	float: right;
+	width: calc(100% - 140px);
+	padding: 10px 0;
+	line-height: 20px;
+	padding: 40px 0;
+}
+.safe .MsgTitle .title > span{
+	display: block;
+}
+.safe i.slideBar,.safe i.slideBar > i{
+	display: inline-block;
+	font-size: 0;
+	border-radius: 15px;
+	height: 10px;
+	margin-right: 10px;
+}
+.safe i.slideBar{
+	position: relative;
+	background: #e1e1e1;
+	width: 100px;
+}
+.safe i.slideBar > i{
+	position: absolute;
+	background: #27d163;
+}
+.safe .MsgTitle .title  em{
+	font-style: normal;
+}
+.safe .item{
+	margin: 10px 0 20px 0;
+	line-height: 35px;
+}
+.safe .item > label{
+	line-height: 35px;
+	display: block;
+	float: left;
+	/*text-align: right;*/
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.safe .item > input[type=text],/* .safe .item > input[type=radio], */.safe .item > input[type=password],.safe .item > input[name=codeBtn],.safe .item select{
+	line-height: 35px;
+	height:35px;
+	box-sizing: border-box;	
+	/*margin-left: 15px;*/
+}
+.safe .item > input[type=text],.safe .item > input[type=password]{
+	border: 1px solid #ccc;
+	padding: 0 8px;
+}
+.safe .item select{
+	width:200px;
+	padding: 0 8px;
+}
+/* .safe .item > input[type=radio]{
+	margin-right: 2px;
+	vertical-align: middle;
+} */
+.safe input.saveBtn{
+	width: 110px;
+	line-height: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+    border: 1px solid #27d163;
+    color: #27d163;
+    background: #edfff7;
+	cursor: pointer;
+    margin-left:110px;
+}
+.safe .c-title{
+    display: inline-block;
+    padding-left: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e45151;
+    vertical-align: middle;
+}
+.safe .c-list li{
+	width: 1000px;
+	border-bottom: 1px solid #eee; 
+	padding: 30px 0;
+	position:relative;
+}
+.safe .c-list .label{
+	width: 140px;
+	padding:0 0 0 13px;
+	box-sizing: border-box;
+	font-weight: bold;
+	border-right: 1px solid #eee;
+}
+.safe .c-list i{
+	background-image: url(../images/safe-bg.png);
+	width:40px;
+	height: 40px;
+	font-size: 0;
+	display:inline-block;
+}
+.safe .c-list .ok{
+	background-position:-1px -1px;
+}
+.safe .c-list .error{
+	background-position: -2px -45px;
+}
+.safe .c-list .cont{
+	width:calc(100% - 200px);
+}
+.safe .c-list .label,.safe .c-list .cont{
+	line-height: 40px;
+	font-size: 14px;
+}
+.safe .c-list .editBtn{
+	position: absolute;
+	right: 0;
+	display: block;
+	top: 50%;
+	margin-top: -15px;
+}
+.safe .editBtn{
+	text-align: center;
+	border: 1px solid #27d163;
+	color: #27d163;
+	background:#edfff7;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.safe .mainContent-left i{
+    height: 16px;
+    width: 5px;
+    background: #e45050;
+    display: inline-block;
+    vertical-align: middle;
+}
+.safe .mainContent-left span{
+    display: inline-block;
+    padding-left: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #e45151;
+    vertical-align: middle;
+}
+
+.safe .progressBar{
+	margin: 45px 0 35px 0;
+}
+.safe .progressBar li{
+	float: left;
+	position:relative;
+	width: 236px;
+	box-sizing: border-box;
+}
+ .safe .progressBar li.on{
+	/* background: url(../images/progressBar-on.png) no-repeat top center; */
+	
+} 
+.safe .progressBar li.on > span:nth-of-type(1),.safe .progressBar li.on > span:nth-of-type(2){
+	background:#27d163;
+}
+.safe .progressBar li > span{
+	display: block;
+	text-align: center;
+	line-height: 25px;
+}
+.safe .progressBar li > span:nth-of-type(1){
+	height:6px;
+	background: #ccc;
+	margin-bottom: 10px;
+}
+.safe .progressBar li > span:nth-of-type(2){
+	color: #fff;
+	background:#ccc;
+	position: absolute;
+	width: 20px;
+	height:20px;
+	border-radius: 50%;
+	line-height: 20px;
+	left:50%;
+	top: 0;
+	margin: -7px 0 0 -10px;
+}
+.safe .progressBar li > span:nth-of-type(3){
+	color: #ccc;
+}
+.safe .submitBtn{
+	height: 30px;
+	line-height: 30px;
+	color: #ccc;
+}
+.safe .submitBtn input{
+	height: 30px;
+	margin-right: 10px;
+	margin-left: 130px;
+}
+.safe .submitBtn span > a{
+	color: #187cc9;
+}
+.safe .item input.codeBtn{
+	border: 1px solid #eee;
+	text-align: center;
+	margin-left: 10px;
+	background: #fff;
+	cursor: pointer;
+}
+.safe .item .tip{
+	padding-left: 120px;
+	color: #ccc;
+	margin: 0;
+}
+.safe .item .tip > em{
+	color: #e8514a;
+	font-style: normal;
+	margin: 0 5px;
+}
+.safe .item > input.disbled{
+	padding: 0;
+	border: none;
+	background: #fff;
+}
+.safe .item .verifyCodeImg{
+	width: 70px;
+	height: 37px;
+	vertical-align:middle;
+	cursor: pointer;
+	margin:-3px 0 0 4px;
+}
+.safe .safeSuccess{
+	margin-top: 80px;
+}
+.safe .safeSuccess .text{
+	line-height: 30px;
+	font-size:24px;
+	font-weight:bold;
+	color: #27d163;
+	text-align: center;
+}
+.safe .safeSuccess > div > i{
+	display:inline-block;
+	font-size: 0;
+	width: 43px;
+	height: 30px;
+	background: url(../images/safeSuccess.png) no-repeat center center;
+	background-size: 100% 100%;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.safe .safeSuccess .return{
+	text-align: center;
+}
+.safe .safeSuccess .return .editBtn{
+	display: block;
+	margin: 25px auto 0 auto;
+}
+.safe .item .error_tip{
+	margin-left:8px;
+	color:#e8514a;
+}
+/* 图片上传样式 */
+.safe #upload-file{
+	border-radius:50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 120px;
+	height: 120px;
+	overflow:hidden;
+	/* background: rgba(0,0,0,0.4); */
+	opacity:0;
+}
+.safe #upload-file .webuploader-pick{
+	width: 120px !important;
+	height:120px;
+	/* line-height:27px; */
+	float: left;
+	padding: 0 !important;
+	/* margin: 32px 0 0 22px; */
+	font-size:0;
+	background:none;
+}
+.safe #upload-file .btn{
+	width: 75px !important;
+	height:27px;
+	line-height:27px;
+	padding: 0;
+	text-align:center;
+	position: relative;
+	top: -40px;
+	margin: 0px 0 0 22px;
+}
+.safe #upload-file .onlineForm-upload{
+	display: block;
+	float: left;
+	margin-right:10px;
+}
+.safe #upload-file .onlineForm-upload >input{
+	width:100%;
+}
+.safe #getValidateCode{
+	display:block;
+	height: 35px;
+	line-height: 35px;
+	cursor:pointer;
+	color:#898989;
+	border:1px solid #ccc;
+	margin-left:10px;
+	text-align:center;
+	overflow: hidden;
+	background: #efefef;
+    font-size: 12px;
+}
+.safe #myInformation .editLogo{
+	text-align:center;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+    -webkit-transition: 0.5s;
+       -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+         -o-transition: 0.5s;
+            transition: 0.5s;
+}
+.safe #myInformation .editLogo_hover{
+	height: 120px;
+	line-height: 23px;
+	padding-top: 43px;
+}

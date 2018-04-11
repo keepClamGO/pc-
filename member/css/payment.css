@@ -1,0 +1,221 @@
+.payment{
+	min-width: 1200px;
+    width: 1200px;
+}
+/*头部样式*/
+.payment header{
+	height: 60px;
+	margin-bottom: 10px;
+	padding-left:10px;
+}
+.payment .header-left{
+  line-height: 40px;
+  width: 20%;
+  float: left;
+  margin-top:5px;
+}
+.payment .header-left i{
+	height:16px;
+	width: 5px;
+	background: #e45151;
+	display: inline-block;
+}
+.payment .header-left span{
+	display: inline-block;
+	padding-left: 4px;
+	color: #e45151;
+}
+.payment .header-right {
+	display: inline-block;
+	display: block;
+	text-align: center;
+	margin: 25px 0 0;
+	float: right;
+}
+.payment .stepflex  dd{
+   	font-size: 14px;
+    text-align: center;
+    margin-left: 0px;
+   }
+.payment .stepflex dl.done {
+	border-top-color: #ff8f8f;
+}
+
+.payment .stepflex dl {
+	float: left;
+	position: relative;
+	width: 160px;
+	top: -5px;
+	border-top-color: #ff8f8f;
+}
+
+.payment .stepflex dl.done .s-num {
+	background-position: -47px 0;
+	text-align: center;
+}
+
+.payment .stepflex .s-num {
+	position: relative;
+	background-position: -47px 0;
+	margin: -15px auto 0;
+	color: #fff;
+	font-weight: 700;
+	width: 23px;
+	height: 23px;
+	background-image: url(../images/orderInfo.png);
+	line-height: 23px;
+	text-align: center;
+}
+.payment .stepflex dl.done .s-text {
+    color: #ff8f8f;
+}
+.payment .stepflex .done s {
+    background-position: -46px -24px;
+}
+
+.payment .stepflex .first s {
+    background-position: 0 -24px;
+    background-color: #fff;
+}
+.payment .stepflex .first s{
+	width: 5px;
+    height: 5px;
+    position: absolute;
+    line-height: 0;
+    font-size: 0;
+    top: -5px;
+    background-image: url(../images/orderInfo.png);
+    overflow: hidden;
+}
+.payment .stepflex .done s {
+    background-position: -46px -24px;
+}
+.payment .stepflex .done b {
+    background-position: -51px -24px;
+}
+.payment .stepflex b {
+    right: 0;
+}
+.payment .stepflex dl.doing {
+    border-top-color: #e4393c;
+}
+.payment .stepflex dl.doing .s-num {
+    background-position: -23px 0;
+    text-align: center;
+}
+.payment .stepflex dl.doing .s-text {
+    color: #e4393c;
+}
+.payment .stepflex .s-text {
+    color: #ff8f8f;
+}
+.payment .stepflex s {
+    left: 0;
+}
+.payment .stepflex .last b {
+    background-position: -5px -24px;
+    background-color: #fff;
+}
+.payment .stepflex .last b {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    line-height: 0;
+    font-size: 0;
+    top: -5px;
+    background-image: url(../images/orderInfo.png);
+    background-position: -25px 5px;
+    overflow: hidden;
+}
+/*中间层*/
+.payment .payment_content{
+	padding: 10px;
+	border: 1px solid #CCCCCC;	
+}
+.payment .payment_content_header{
+	border-bottom: 1px solid #CCCCCC;
+	padding: 20px;
+}
+.payment .payment_content_header div:nth-child(1){
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.payment .payment_content_header div:nth-child(2){
+	font-size: 14px;
+}
+.payment .payment_content_header div b{
+	color: #EE0000;
+	font-size: 18px;
+	padding-left: 10px;
+}
+.payment .payment_content_header a{
+	text-decoration: none;
+    color: #20A0FF;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 16px;
+}
+/*支付环节*/
+.payment .content_pay {
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+}
+.payment .content_nav_list{
+	padding: 10px;
+}
+.payment .content_pay ul li{
+	display: inline-block;
+	padding: 5px 20px;
+	border: 1px solid #CCCCCC;
+	margin-right: 10px;
+	position: relative;
+	cursor: pointer;
+}
+.payment .content_pay ul li.active{
+	border: 1px solid #E4393C;
+}
+.payment .content_pay ul li.active b{
+	display: block;
+    position: absolute;
+    right: 0px;
+    bottom: -1px;
+    width: 25px;
+    height: 23px;
+    overflow: hidden;
+    background: url(../images/check.png) no-repeat;
+}
+.payment .content_pay ul li img,.content_pay ul li span{
+    vertical-align: middle;
+    display: inline-block;
+}
+/*立即支付按钮*/
+.payment .payment_submit{
+	padding: 10px;
+}
+.payment .payment_submit button{
+    height:44px;
+    line-height: 44px;
+    margin: 8px 10px 0 0;
+    padding:0px 50px;
+    background-color: #e45050;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 0;
+}
+.payment .sgBtn{width: 135px; 
+    height: 35px;
+     line-height: 35px;
+     margin: 10px; 
+     text-align: center; 
+     background-color: #0095D9;
+      color: #FFFFFF;
+      border-radius:3px;
+}

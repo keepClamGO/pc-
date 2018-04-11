@@ -1,0 +1,391 @@
+/*memberShopCart.css*/
+.NorderBox em,.NorderBox i{
+	font-style: normal;
+}
+.NorderBox .mem_left{
+	float: left;
+}
+.NorderBox .mem_right{
+	float: right;
+}
+.NorderBox{
+    background-color: #fff;
+	min-width: 880px;
+}
+.NorderBox .orderHead{
+	width: 100%;
+	height: 200px;
+	background-color: #f5f5f5;
+	border-bottom-left-radius: 200px;
+	border-top-left-radius: 200px;
+}
+.NorderBox .memImg{
+	display: inline-block;
+	height: 100px;
+	width:100px;
+    border-radius: 100px;
+	overflow: hidden;
+}
+.NorderBox .memImg img{
+    height: 100%;
+    width: 100%;
+}
+.NorderBox .order_left{
+	float: left;
+	vertical-align: middle;
+    margin: 50px 0 0 50px;
+}
+.NorderBox .nameContent{
+	display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    vertical-align:top;
+    font-size: 20px;
+}
+.NorderBox .nameContent .memName{
+	font-weight: bold;
+    margin-left: 20px;
+}
+.NorderBox .greeting{
+    color: #5a5a5a;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.NorderBox .order_right{
+    margin: 60px 50px 0 0;
+}
+.NorderBox .count_item{
+	text-align: center;
+}
+.NorderBox .count_item a{
+	text-decoration: none;
+	font-size: 14px;
+    color: #6c6c6c;
+}
+.NorderBox .count_icon{
+	display: block;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    background: url("../images/member-commorn.png");
+    margin: 0 auto;
+}
+.NorderBox .count_icon01{
+	background-position: -10px -8px;
+}
+.NorderBox .count_icon02{
+	background-position: -81px -8px;
+}
+.NorderBox .count_icon03{
+	background-position: -152px -8px;
+}
+.NorderBox .count_box ul li{
+	float: right;
+	width: 100px;
+	text-align: center;
+    line-height: 30px;
+}
+.NorderBox .count_box ul:after,.order_main ul:after{
+	content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.NorderBox .count_box ul li em{
+	color: #d62532;
+    font-weight: bold;
+    font-family: verdana;
+}
+.NorderBox .orderContent{
+    margin-top: 50px;
+    font-size:16px;
+}
+.NorderBox .orderContent .order_main .memBar_box{
+	/*border-bottom: 1px solid #ccc;*/
+    position: relative;
+}
+.NorderBox .orderContent .order_main .mem_border{
+    border-bottom: 2px solid #ccc;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+.NorderBox .orderContent .order_main .memBar_box li{
+	height: 46px;
+	min-width: 120px;
+	line-height: 42px;
+	font-weight: bold;
+    color: #444;
+    padding-left:34px;
+    cursor: pointer;
+}
+.NorderBox .orderContent .order_main .memBar_box li:after{
+	content: "|";
+    padding-left: 34px;
+    color: #ccc;
+}
+.NorderBox .orderContent .order_main .memBar_box li:last-child:after{
+	content: "";
+}
+#orderCon .order_on{
+	color: #e45050;
+	border-bottom: 2px solid #e45050;
+}
+#orderCon .orderBox_on{
+	display: block !important;
+}
+.NorderBox .orderBar{
+    display: none;
+    font-size: 14px;
+}
+.NorderBox .mod_head{
+	height: 40px;
+    line-height: 40px;
+    width: 100%;
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 1px solid #e8e8e8;
+}
+.NorderBox .mod_head .gd01{
+	width: 40%;
+}
+.NorderBox .mod_head .gd02{
+	width: 12%;
+}
+.NorderBox .orderContent,.NorderBox .order_main{
+	width: 99%;
+    margin-bottom:50px;
+}
+.NorderBox .order_comm,.NorderBox .orderBar{
+    width: 68%;
+    min-width: 1082px;
+}
+.NorderBox .empty_box{
+    height: 136px;
+    margin: 110px auto;
+    position: relative;
+}
+.NorderBox .goodEmpty_box{
+    width: 400px;
+}
+.NorderBox .orderEmpty_box{
+    width: 240px;
+}
+.NorderBox .empty_icon{
+	display: block;
+	overflow: hidden;
+	vertical-align: middle;
+}
+.NorderBox .noGood_icon{
+    width: 112px;
+    height: 83px;
+    background: url("../images/memberCart.jpg");
+}
+.NorderBox .noOrder_icon{
+    width: 62px;
+    height: 74px;
+    background: url("../images/order_icon.png");
+}
+.NorderBox .empty_txt{
+	position: absolute;
+    width: 250px;
+}
+.NorderBox .noGood_txt{
+    top: 40px;
+    left: 114px;
+}
+.NorderBox .noOrder_txt{
+    top: 31px;
+    left: 84px;
+}
+.NorderBox .empty_txt a{
+	color: #e45050;
+	text-decoration: none;
+}
+.del_dialog,.cancel_dialog{
+    width: 500px;
+    height:auto;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 9998;
+}
+.dialog_mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    background-color: #878787;
+    opacity: 0.5;
+    height:100%;
+    z-index: 9988;
+}
+.del_dialog .dialog_title,.cancel_dialog .dialog_title{
+    position: relative;
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.del_dialog .dialog_title .dialog_close,.cancel_dialog .dialog_title .dialog_close{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 100000;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background: url("../images/dialog_icon.png") -5px -3px;
+    font-size: 0;
+}
+.del_dialog .dialog_content{
+    margin: 30px 30px 20px;
+}
+.del_dialog .dialog_content .tip_box{
+    position: relative;
+    margin: 0 90px;
+}
+.del_dialog .dialog_content .tip_icon{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    background: url("../images/dialog_tip_icon.png") no-repeat;
+}
+.del_dialog .tip_item{
+    margin-left: 58px;
+    overflow: hidden;
+}
+.del_dialog .tip_txt1{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+.del_dialog .tip_txt2{
+    line-height: 20px;
+    min-height: 20px;
+    color: #aaa;
+}
+.del_dialog .tip_btn{
+    margin-top: 15px;
+}
+.del_dialog .tip_btn a:first-child:hover{
+    color:#fff;
+}
+.del_dialog .btn_1{
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    line-height: 25px;
+    color: #fff;
+    padding: 3px 15px;
+    background-color: #e74649;
+    text-decoration: none;
+    cursor: pointer;
+}
+.del_dialog .btn_2{
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    line-height: 25px;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 2px 14px 3px;
+    background-color: #F7F7F7;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*取消订单*/
+.cancel_dialog .cancel_content{
+    width: 500px;
+    font-size: 12px;
+    position: relative;
+    margin-top: 20px;
+}
+.cancel_dialog .cancel_content .cancelReason_list{
+    padding: 0 15px 0 45px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.cancel_dialog .reason {
+    background: #FFF;
+    width: 198px;
+    height: 34px;
+    border: 1px solid #DDD;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    color: #666;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: content-box;
+}
+.cancel_dialog .reason i {
+    display: none;
+    width: 22px;
+    height: 22px;
+    background: url("../images/dialog_icon.png") -16px 6px;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+}
+.cancel_dialog .selected,.cancel_dialog .reasonHover{
+    width: 196px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #E4393C;
+}
+.cancel_dialog .selected i{
+    display: block;
+}
+.cancel_dialog .btn_item{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cancel_dialog .btn_item a {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 88px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cancel_dialog .btn_cancel{
+    color: #333;
+    border: 1px solid #D7D7D7;
+    background-color: #F5F5F5;
+    margin-right: 15px;
+}
+.cancel_dialog .btn_confirm{
+    color: #FFF;
+    border: 1px solid #E4393C;
+    background-color: #E4393C;
+}
+.btn_item .btn_disabled{
+    border-color: #EBEBEB;
+    background-color: #F7F7F7;
+    color: #CCC;
+}
+
+
+

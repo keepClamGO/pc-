@@ -1,0 +1,287 @@
+#m_shopcart #m_shopcart_number{
+    color: #EA3340;
+}
+#m_shopcart .mallCart {
+    text-align: center;
+    overflow-y: hidden;
+    background-color: #efeff4;
+    text-align: left;
+}
+#m_shopcart .mallCart #information{
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    background-color:#fafafa;
+}
+#m_shopcart .mallCart #information>a{
+    color: black;
+}
+#m_shopcart .mallCart .icon-round,.icon-roundcheckfill{
+    font-size: 2.5rem;
+    padding-left: 8px;
+}
+#m_shopcart .mallCart .icon-round a{
+    font-size: 1.2rem;
+    color: #919191;
+}
+#m_shopcart .mallCart .g_color{
+    color: #ea3340;
+}
+#m_shopcart .mallCart .information_right{
+    float: right;
+    margin-right: 1rem;
+}
+#m_shopcart .mall_product_con .discount{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+}
+#m_shopcart .mall_product_con .discount .tip{
+    color: #EA3340;
+    border: 1px solid #EA3340;
+    background: #FFFFFF;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+#m_shopcart .mall_product {
+    height: 11rem;
+    border-bottom: 1px solid #d7d7d7;
+}
+/*失效*/
+#m_shopcart .mall_product .cart_nouse{
+    background: #ea3340;
+    color: #fff;
+    margin-left: 7px;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.2rem;
+}
+#m_shopcart .mall_product #selectBtn1{
+    width: 4rem;
+    line-height: 11rem;
+    color: #999;
+    float: left;
+    height: 100%;
+}
+#m_shopcart .mall_product .left{
+    width: 7rem;
+    position: relative;
+    margin: 0 0.5rem 0 0rem;
+    height: 100%;
+    float: left;
+}
+#m_shopcart .mall_product .left .imgClass{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -3.5rem;
+    margin-left: -3.5rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 5%;
+    border: 1px solid #d7d7d7;
+}
+#m_shopcart .mall_product .right{
+    width: calc( 100% - 12rem );
+    float: left;
+    height: 100%;
+    padding-left: 0.5rem;
+}
+#m_shopcart .mall_product .right .product_name{
+    /* width: 80%; */
+    text-align: left;
+    margin-top: 1.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+#m_shopcart .mall_product .right .product_name .cart_message{
+    color: #222226;
+    text-align: left;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+#m_shopcart .mall_product .right .product_name .cart_number{
+    color: #81838c;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    display: block;
+}
+#m_shopcart .mall_product .right .product_param{
+    width: 100%;
+    height: 3rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+#m_shopcart .mall_product .right .product_param .mallPrice{
+    width: 32%;
+    height: 3rem;
+    font-size: 1.6rem;
+    color: #EA3340;
+    float: left;
+}
+#m_shopcart .mall_product .right .product_param .param_line{
+    float: right;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background: #e3e3e3;
+    margin-right: 0.5rem;
+}
+#m_shopcart .mall_product .right .product_param .param_line .cut{
+    cursor: pointer;
+    color: #999;
+    float: left;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height:2.5rem;
+    text-align: center;
+
+}
+#m_shopcart .mall_product .right .product_param .param_line .num{
+    -webkit-appearance: none;
+    border: none;
+    width: 3.5rem;
+    text-align: center;
+    margin: 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-family: verdana;
+    float: left;
+    font-size: 1.6rem;
+    background: #efefef;
+    border-radius: 0px;
+}
+#m_shopcart .mall_product .right .product_param .param_line .add{
+    float: right;
+    cursor: pointer;
+    color: #999;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+#m_shopcart footer{
+    max-width: 720px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid #ddd;
+}
+
+#m_shopcart footer .selectAllBtnWrap {
+    display: inline-block;
+    width: 25%;
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    font-size: 2.5rem;
+    color: #999;
+}
+#m_shopcart footer .selectAllBtnWrap i{
+    font-size: 2.5rem;
+    padding-left: 8px;
+}
+
+#m_shopcart footer .selectAllBtnWrap .selectAllBtn{
+    display: inline-block;
+    float: left;
+    margin-top: 2rem;
+}
+#m_shopcart footer .selectAllBtnWrap .selectAllBtn>i{
+    font-size: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+#m_shopcart footer .selectAllBtnWrap .mCartSelectAllTextwrap{
+    float: left;
+    margin-top: 2.5rem;
+}
+#m_shopcart footer .selectAllBtnWrap  .mCartSelectAllText{
+    font-size: 1.4rem;
+    position: relative;
+    top: -3px;
+}
+
+#m_shopcart footer .g_color {
+    color: #ea3340;
+    font-size: 2.5rem;
+
+}
+#m_shopcart footer .payCount_line {
+    text-align: right;
+    float: left;
+    width: 45%;
+    height: 50px;
+    line-height: 50px;
+}
+#m_shopcart footer .payCount_line .totalTr{
+    font-size: 1.6rem;
+    padding-right: 2rem;
+}
+#m_shopcart footer .g_button {
+    font-size: 1.8rem;
+    width: 30%;
+    height: 50px;
+    color: #fff;
+    background: #EA3340;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center;
+}
+#m_shopcart footer .payCount_line .cutTr .subprice{
+    margin-right: 1rem;
+}
+#m_shopcart footer  .del_button{
+    font-size: 1.8rem;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    background: #EA3340;
+    color: #fff;
+}
+
+#m_shopcart .cart_null{
+    width: 100%;
+    height: 605px;
+    padding-top: 40%;
+}
+#m_shopcart .cart_null>i{
+    margin: 0 auto;
+    display: block;
+    font-size: 10rem;
+    color: orangered;
+    width: 10rem;
+    height: 10rem;
+}
+
+#m_shopcart .cart_null p{
+    margin-top: 0.5rem;
+    font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+}
+#m_shopcart .cart_null a{
+    color: orangered;
+    text-decoration: underline;
+}
+#m_shopcart .mallCart .unit-price-pay{
+    color: #222226;
+}
+
+#m_shopcart .mall_product .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    font-size:0;
+}
+#m_shopcart .mall_product #selectBtn1 i,#m_shopcart footer .selectAllBtnWrap i{
+    font-size:2rem;
+}

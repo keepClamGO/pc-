@@ -1,0 +1,98 @@
+@import "master.css";
+.tx{
+	width:100%;
+	min-height:170px;
+	background: #f5f5f5;
+	margin-top: 140px;
+}
+.tx_cotnent{
+	max-width:1200px;
+	padding:20px 0;
+	overfloat:hidden;
+	margin:0 auto;
+	position: relative;
+}
+.goods{
+	clear:both;
+	overflow:hidden;
+}
+.goods .buy{
+	background: url(../images/tick.png) no-repeat left 2px;
+	color: #70b346;
+	font-size: 18px;
+	padding-left: 45px;
+	line-height:35px;
+	height:35px;
+	overflow: hidden;
+	margin-bottom:20px;
+}
+.goods .goods_img{
+	width:100px;
+	float: left;
+}
+.goods .goods_img p{
+	margin:0px;
+	width:80px;
+	height:80px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.goods .goods_img p img{
+	display: block;
+	max-width:80px;
+	max-height:80px;
+}
+.goods .goods_txt{
+	float: left;
+	width:calc(100% -  500px)
+}
+.goods .goods_txt > div{
+	display: table;
+	min-height: 50px;
+}
+.goods .goods_txt  div  span.black{
+	color: #000;
+	font-size: 18px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.goods .goods_txt span.brown{
+	clear: both;
+	display: block;
+	color: #8a8a8a;
+	font-size: 12px;
+}
+.tx_cotnent .button{
+	position: absolute;
+	right:0px;
+	bottom:0px;
+	width:350px;
+	height:60px;
+}
+.tx_cotnent .button a{
+	display: block;
+	float:right;
+	line-height:38px;
+	width:170px;
+	text-align: center;
+	font-size: 16px;
+	margin-left:10px;
+}
+.tx_cotnent .button a:last-child{
+	margin:0;
+}
+.tx_cotnent .button a span{
+	font-family: '宋体';
+	padding-left:10px;
+	color: #FFFFFF;
+}
+.tx_cotnent .button .look{
+	background: #FFFFFF;
+	color: red;
+}
+.tx_cotnent .button .goshopcar{
+	background: red;
+	color: #FFFFFF;
+}
+

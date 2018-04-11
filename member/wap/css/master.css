@@ -1,0 +1,60 @@
+
+@charset "utf-8";
+*{
+	box-sizing: border-box;
+	/* transition: margin 500ms ease; */
+	margin:0;
+	padding:0;
+}
+html,body{font-size: 62.5%!important;}
+body{
+	background:#efeff4;
+	font-size: 1.4rem;
+}
+body,input,textarea,select{
+	font-family:'Arial', 'Verdana', 'Microsoft YaHei', '微软雅黑', '宋体';
+	color:#535353;
+}
+textarea{
+	resize:none;
+}
+div,ul,li,dd,dt,h1,h2,h3,h4,h5,h6,dl,menu,nav{
+	margin:0;
+	padding:0;
+	/* text-align:left; */
+	list-style:none;
+	font-size: 1.4rem;
+}
+a,img{
+	star:expression(this.onFocus=this.blur());
+	border:0;
+}
+a{
+	transition: all .3s;
+	color: #555;
+	text-decoration:none;
+}
+/*请浮动，clearfix*/
+.clear,
+.clearfix:before,
+.clearfix:after{
+    height:0;
+    clear:both;
+    display:block;
+    overflow:hidden;
+}
+.clearfix:before,
+.clearfix:after{
+    content:"";
+}
+*{-webkit-tap-highlight-color:rgba(255,255,255,0); margin: 0; padding:0; }
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2); border-radius:0; background:rgba(0,0,0,0.1);}
+::-webkit-scrollbar{ width: 4px; height: 4px;}
+::-webkit-scrollbar-thumb{border-radius:5px;-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.2); background:rgba(0,0,0,0.1);}
+
+/*提示框*/
+#webupload_tip{ position: fixed; z-index: 999;  top:20%; margin-top:-25px; left:0; width: 100%; height: 50px; text-align: center; display:none;}
+#webupload_tip .webupload_body{ position:relative; background: #f8f0cf; color:#c10000; border: 1px solid #ffecb5; border-radius: 4px; white-space: nowrap; height: 46px; line-height: 36px; font-size: 14px; margin-top:-23px; text-align: center;
+box-shadow: 0 1px 4px #333; padding: 5px 30px 5px 15px; display: -moz-inline-stack; display:inline-block; *display:inline; *zoom:1; box-sizing: border-box;}
+#webupload_tip .webupload_body span.tclose{ position: absolute; right: 7px; cursor: pointer; top: 15px; background: url(../../images/close.png) no-repeat; width: 15px; height: 15px; background-size: cover;}
+.file-tips-word{ margin-right:10px; }

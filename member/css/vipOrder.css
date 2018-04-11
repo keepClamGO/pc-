@@ -1,0 +1,450 @@
+/**************我的订单*************/
+.myOrder_box{
+    min-width:1200px;
+    background:#ffffff;
+}
+.myOrder_box ul{
+    margin-bottom:0;
+}
+.myOrder_nav{
+    padding-bottom:12px;
+    border-bottom:2px solid #ececec;
+    font-size:16px;
+}
+.myOrder_nav>li{
+    float:left;
+    min-width:130px;
+    padding:0 25px;
+    text-align:center;
+    border-right:1px solid #ebebeb;
+    cursor:pointer;
+    color:#444444;
+    font-size:16px;
+    font-weight:bold;
+}
+.myOrder_nav>li.on{
+    color:#e45050;
+}
+.myOrder_nav>li>span{
+    color:#e31436;
+    font-weight:bold;
+    margin-left:5px;
+}
+.myOrder_nav_line{
+    position: relative;
+    top: -2px;
+}
+.myOrder_nav_line>li{
+    float:left;
+    height:1px;
+    /*margin:0 25px;*/
+    margin-right:1px;
+}
+.myOrder_nav_line>li.on{
+    border-bottom:2px solid #e45050;
+}
+.myOrder_nav>li:last-of-type{
+    border-right:none;
+}
+.myOrder_tab,.myShopCart_tab{
+    width:1082px;
+    margin-top:20px;
+}
+.myOrder_tab thead tr,.myShopCart_tab thead tr{
+    background:#f7f7f7;
+    border:1px solid #e8e8e8;
+}
+.myOrder_tab thead tr th,.myShopCart_tab thead tr th{
+    padding:14px 0;
+    width:140px;
+    color:#262626;
+    font-size:14px;
+    text-align: center;
+}
+.myOrder_tab thead tr th:first-of-type,
+.myShopCart_tab thead tr th:first-of-type{
+    width:370px;
+}
+.myOrder_tab tbody td{
+    border:1px solid #e8e8e8;
+}
+.myOrder_tab tbody td p,.myShopCart_tab tbody td p{
+    margin: 0;
+}
+.myOrder_tab tbody tr:last-of-type,
+.myOrder_tab tbody tr:last-of-type span,
+.myShopCart_tab tbody tr:last-of-type{
+    font-size:14px;
+    color:#333333;
+    margin: 0;
+}
+.myOrder_tab tbody tr:last-of-type .myOrder_nowPrice{
+    color:#ff0000;
+}
+.myOrder_num{
+    background:#f7f7f7;
+    text-align:left;
+    text-indent:20px;
+    height:40px;
+    line-height: 40px;
+}
+.myOrder_num td,.myOrder_num span{
+    color:#828282;
+}
+.myOrder_num span:first-of-type{
+    margin-right:25px;
+}
+.myOrder_delete{
+    height:16px;
+    float:right;
+    margin-right:12px;
+    cursor:pointer;
+}
+.myOrder_infos{
+    text-align:left;
+}
+.myOrder_info{
+    height:110px;
+    padding:20px;
+    padding-right:0;
+    border-bottom:1px solid #e8e8e8 ;
+}
+.myOrder_info:last-of-type{
+    border-bottom:none;
+}
+.myOrder_info img{
+    display:inline-block;
+    vertical-align:middle;
+    width:70px;
+    height:70px;
+}
+.myOrder_info .myOrder_img{
+    display:inline-block;
+    vertical-align:middle;
+    width:70px;
+    height:70px;
+}
+.myOrder_info .myOrder_img img{
+    width:100%;
+    height:100%;
+}
+.myOrder_info>div{
+    height:100%;
+    float:left;
+    vertical-align:middle;
+}
+.myOrder_info .myOrder_goods .myOrder_intro{
+    vertical-align:middle;
+    display:inline-block;
+    width:216px;
+    max-height:57px;
+}
+.myOrder_info .myOrder_goods .myOrder_intro span{
+    vertical-align:middle;
+    display:-webkit-box;
+    width:196px;
+    max-height:57px;
+    margin-left: 20px;
+    text-overflow:ellipsis;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow:hidden;
+}
+.myOrder_goods{
+    width:345px;
+}
+.myOrder_price,.myOrder_count{
+    width:140px;
+    text-align:center;
+    display:table;
+}
+.myOrder_price>p,.myOrder_count>p{
+    display:table-cell;
+    vertical-align:middle;
+}
+.myOrder_tab,.myShopCart_tab{
+    border-collapse:collapse;
+    text-align:center;
+}
+.myOrder_tab .myOrder_sep_row>td,.myShopCart_tab .myOrder_sep_row>td{
+    height:20px;
+    border:none;
+}
+.myOrder_detail{
+    color:#333333;
+}
+.myOrder_handle1{
+    display: inline-block;
+    background:#ffffff;
+    border:1px solid #e4393c;
+    color:#e4393c;
+    border-radius:2px;
+    width:80px;
+    cursor:pointer;
+    font-weight:bold;
+}
+.myOrder_handle1:hover{
+    background:#e4393c;
+    color:#ffffff;
+}
+.myOrder_handle1:active{
+    background:#ffffff;
+    color:#e4393c;
+}
+.myOrder_buy_again{
+    border:1px solid #cdcdcd;
+    color:#333333;
+}
+.myOrder_tab tbody td .myOrder_handle2{
+    margin-top:5px;
+    cursor:pointer;
+    line-height: 24px;
+}
+.myOrder_tab .myOrder_handle2:hover,
+.myShopCart_tab .myOrder_handle2:hover{
+    color: #e4393c;
+}
+.myOrder_tab .myOrder_handle2:active,
+.myShopCart_tab .myOrder_handle2:active{
+    color:#4467a7;
+}
+.myOrder_tab .myOrder_price .myOrder_oldPrice,
+.myShopCart_tab .myOrder_price .myOrder_oldPrice{
+    text-decoration-line: line-through;
+    color:#a0a0a0;
+}
+.myOrder_tab tbody tr td .orderPrice,
+.myShopCart_tab tbody tr td .orderPrice{
+    font-weight:bold;
+}
+.myOrder_tab tbody tr td .otherPrice,.myOrder_tab tbody tr td .otherPrice span,
+.myShopCart_tab tbody tr td .otherPrice,.myShopCart_tab tbody tr td .otherPrice span{
+    color:#a0a0a0;
+}
+.myOrder_content{
+    display:none;
+    margin-top:20px;
+}
+.myOrder_content.on{
+    display:block;
+}
+.myOrder_finished_order{
+    color: #959595;
+}
+/*订单为空*/
+.myOrder_content .empty_box{
+    width: 400px;
+    height: 136px;
+    margin: 110px auto;
+    position: relative;
+}
+.myOrder_content .empty_icon{
+    display: block;
+    width: 112px;
+    height: 83px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url("../images/order_icon.png")no-repeat center bottom;
+}
+.myOrder_content .empty_txt{
+    position: absolute;
+    top: 40px;
+    left: 114px;
+    width: 250px;
+}
+.myOrder_content  .empty_txt a{
+    color: #e45050;
+    text-decoration: none;
+}
+/*dialog*/
+.del_dialog,.cancel_dialog{
+    width: 500px;
+    height:auto;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 9998;
+}
+.dialog_mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right:0;
+    background-color: #878787;
+    opacity: 0.5;
+    height:100%;
+    z-index: 9988;
+}
+.del_dialog .dialog_title,.cancel_dialog .dialog_title{
+    position: relative;
+    padding: 0 10px;
+    height: 31px;
+    line-height: 31px;
+    background: #f3f3f3;
+    font-size: 14px;
+    color: #666;
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.del_dialog .dialog_title .dialog_close,.cancel_dialog .dialog_title .dialog_close{
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 100000;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 13px;
+    height: 13px;
+    background: url("../images/dialog_icon.png") -5px -3px;
+    font-size: 0;
+}
+.del_dialog .dialog_content{
+    margin: 30px 30px 20px;
+}
+.del_dialog .dialog_content .tip_box{
+    position: relative;
+    margin: 0 50px;
+}
+.del_dialog .dialog_content .tip_icon{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    background: url("../images/dialog_tip_icon.png") no-repeat;
+}
+.del_dialog .tip_item{
+    margin-left: 58px;
+    overflow: hidden;
+}
+.del_dialog .tip_txt1{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: left;
+}
+.del_dialog .tip_txt2{
+    line-height: 20px;
+    min-height: 20px;
+    color: #aaa;
+}
+.del_dialog .tip_btn{
+    margin-top: 15px;
+}
+.del_dialog .tip_btn a:first-child:hover{
+    color:#fff;
+}
+.del_dialog .btn_1{
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    line-height: 25px;
+    color: #fff;
+    padding: 3px 15px;
+    background-color: #e74649;
+    text-decoration: none;
+    cursor: pointer;
+}
+.del_dialog .btn_2{
+    border-radius: 2px;
+    display: inline-block;
+    height: 30px;
+    line-height: 25px;
+    color: #000;
+    border: 1px solid #ddd;
+    padding: 2px 14px 3px;
+    background-color: #F7F7F7;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*取消订单*/
+.cancel_dialog .cancel_content{
+    width: 500px;
+    font-size: 12px;
+    position: relative;
+    margin-top: 20px;
+}
+.cancel_dialog .cancel_content .cancelReason_list{
+    padding: 0 15px 0 45px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.cancel_dialog .reason {
+    background: #FFF;
+    width: 198px;
+    height: 34px;
+    border: 1px solid #DDD;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    float: left;
+    color: #666;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: content-box;
+}
+.cancel_dialog .reason i {
+    display: none;
+    width: 22px;
+    height: 22px;
+    background: url("../images/dialog_icon.png") -16px 6px no-repeat;
+    position: absolute;
+    right: -2px;
+    bottom: -2px;
+}
+.cancel_dialog .selected,.cancel_dialog .reasonHover{
+    width: 196px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #E4393C;
+}
+.cancel_dialog .selected i{
+    display: block;
+}
+.cancel_dialog .btn_item{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.cancel_dialog .btn_item a {
+    display: inline-block;
+    height: 34px;
+    line-height: 34px;
+    width: 88px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.cancel_dialog .btn_cancel{
+    color: #333;
+    border: 1px solid #D7D7D7;
+    background-color: #F5F5F5;
+    margin-right: 15px;
+}
+.cancel_dialog .btn_confirm{
+    color: #FFF;
+    border: 1px solid #E4393C;
+    background-color: #E4393C;
+}
+.btn_item .btn_disabled{
+    border-color: #EBEBEB;
+    background-color: #F7F7F7;
+    color: #CCC;
+}
+/*index.html  myShopCart style*/
+.myShopCart_tab .myOrder_goods{
+    width:410px;
+}
+.myShopCart_tab .myOrder_price,.myShopCart_tab .myOrder_count{
+    width:164px;
+    text-align:center;
+    display:table;
+}

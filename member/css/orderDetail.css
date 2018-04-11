@@ -1,0 +1,199 @@
+.orderDetail{
+	min-width: 1200px;
+	width: 1200px;
+	font-family: "微软雅黑";
+}
+.orderDetail header{
+	padding-left:10px;
+}
+/*订单头部的设置*/
+.orderDetail .orderDetail_content{
+	padding: 10px;
+}
+.orderDetail .orderDetail_content_header{
+	height: 100px;
+	margin-bottom: 15px;
+}
+.orderDetail .orderDetail_content_header div{
+	text-align: center;
+}
+/*进度条的样式*/
+.orderDetail .flowstep .flowstep-5 {
+	width: 100%;
+	padding: 0px 90px;
+}
+.orderDetail .flowstep .detail-stepbar {
+    overflow: hidden;
+    zoom: 1;
+}
+.orderDetail .flowstep .flowstep-5 li {
+    width: 210px;
+}
+
+.orderDetail .flowstep .detail-stepbar li {
+    float: left;
+    text-align: center;
+}
+li, ol, ul {
+    list-style: none;
+    margin: 0px;
+}
+.orderDetail .flowstep .detail-stepbar .step-name {
+    padding: 3px 0;
+    font-weight: 700;
+    color: #888;
+}
+.orderDetail .flowstep .detail-stepbar .step-first .step-done .step-no {
+    background-position: 50% -204px;
+}
+
+.orderDetail .flowstep .detail-stepbar .step-done .step-no {
+    background-position: 50% -170px;
+}
+
+.orderDetail .flowstep .detail-stepbar .step-no {
+    height: 34px;
+    line-height: 34px;
+    font-family: 'arial black';
+    color: #fff;
+    font-size: 18px;
+    transition: all 300 ease;
+}
+.orderDetail .flowstep .detail-stepbar .step-no, .flowstep .detail-stepbar .step-sub-box .step-sub {
+    background: url(../images/progress.png) 50% -102px no-repeat;
+}
+.orderDetail .flowstep .detail-stepbar li {
+    float: left;
+    text-align: center;
+}
+.orderDetail .flowstep .detail-stepbar .step-time {
+    margin-top: 10px;
+    color: #999;
+    padding: 8px 0;
+}
+.orderDetail .flowstep .detail-stepbar .step-time .step-time-min-wraper, .flowstep .detail-stepbar .step-time .step-time-wraper {
+    width: 210px;
+    margin: 0 auto;
+    display: inline-block;
+    zoom: 1;
+}
+.orderDetail .flowstep .detail-stepbar .step-tap{
+    background-position: 50% -170px;
+}
+/*订单详情的样式*/
+.orderDetail .orderDetail_content_info{
+	border: 1px solid #CCCCCC;
+	margin-bottom: 20px;
+	height: 50%;
+}
+.orderDetail .orderDetail_content_info_left{
+	float: left;
+	width: 24%;
+}
+.orderDetail .orderDetail_content_info_left div:nth-child(1){
+	background: #f3f3f3;
+	padding: 10px;
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+}
+.orderDetail .orderDetail_content_info_left div:nth-child(2){
+	padding:25px 20px;
+}
+.orderDetail .orderDetail_content_info_left div:nth-child(2)>p{
+	padding-bottom: 10px;
+}
+.orderDetail .orderDetail_content_info_right{
+	float: left;
+	width:76%;
+	border-left: 1px solid #cccccc;
+}
+.orderDetail .orderDetail_content_info_right_nav{
+	padding: 7px 50px;
+	padding-top: 5%;
+}
+.orderDetail .orderDetail_content_info_right i{
+	font-size: 40px;
+    color: rgb(238, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+}
+.orderDetail .orderDetail_content_info_right_nav span{
+	display: inline-block;
+}
+.orderDetail .orderDetail_content_info_right>div:nth-child(2){
+	padding: 7px 0px 56px 50px;
+}
+.orderDetail .orderDetail_content_info_right>div:nth-child(2)>p{
+	margin-bottom: 10px;
+}
+.orderDetail .orderDetail_content_info_right>div:nth-child(2)>p b{
+	display: inline-block;
+	color: #E4393C;
+}
+.orderDetail .orderDetail_content_info_right>div:nth-child(2) button{
+	color: #FFFFFF;
+	background: #e45050;
+	font-family: "微软雅黑",arial;
+	font-size: 14px;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 2px;
+	margin-top:15px;
+}
+.orderDetail .orderDetail_content_info_right>div:nth-child(2) a{
+	text-decoration: none;
+	border: 1px solid #CCCCCC;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: #000000;
+	margin-left: 10px;
+	margin-top: 15px;
+    border-radius: 2px;
+}
+.orderDetail .orderDetail_content_order_list{
+	border: 1px solid #CCCCCC;
+	margin-top:20px ;
+}
+.orderDetail .orderDetail_content_order_list ul{
+	margin: 0px;
+}
+.orderDetail .orderDetail_content_order_list .content_order_head ul{
+	border: none;
+	border-bottom:1px solid #CCCCCC;
+}
+.orderDetail .orderDetail_content_order_list .content_order_head ul>li:nth-child(1){
+ width: 55%;	
+}
+.orderDetail  .orderDetail_content_order_list .content_order_head ul>li:nth-child(2),
+.orderDetail  .orderDetail_content_order_list .content_order_head ul>li:nth-child(3),
+.orderDetail  .orderDetail_content_order_list .content_order_head ul>li:nth-child(4){
+	width: 15%;
+}
+.orderDetail  .content_order_list ul{
+	padding: 0px;
+}
+.orderDetail  .content_order_list ul>li:nth-child(1){
+	width: 55%;
+	padding-left:50px;
+}
+.orderDetail  .content_order_list ul>li:nth-child(2),
+.orderDetail  .content_order_list ul>li:nth-child(3),
+.orderDetail  .content_order_list ul>li:nth-child(4){
+	width: 15%;
+	text-align: center;
+}
+.orderDetail  .orderInfo_all>p{
+	padding-bottom: 10px;
+}
+.orderDetail .orderInfo_all > p >span{
+	padding-right: 0px;
+	font-weight: bold;
+	font-size: 24px;
+}
+.orderDetail #order_loglstica p>i{
+	font-size: 40px;
+    color: rgb(238, 0, 0);
+    display: inline-block;
+    vertical-align: middle;
+}

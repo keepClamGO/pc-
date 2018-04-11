@@ -1,0 +1,200 @@
+@charset "utf-8";
+@import "iconfont.css";
+@import "master.css";
+@import url(../../../js/lib/weui/weui.css);
+@import url(../../../js/lib/weui/css/jquery-weui.css);
+@media screen and (min-width: 768px) {
+    body {
+        background: #333;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 720px;
+        width: 100%;
+        min-width: 320px;
+    }
+    #content {
+        min-height: 950px;
+        overflow-x: hidden;
+    }
+    body > .weui-actionsheet{ max-width: 720px; min-width: 320px; margin: 0 auto; left: inherit!important}
+    body > .weui-loadmore{ width: 100%; padding: 15px 0; background: #efeff4; margin: 0}
+}
+#content {
+    position: relative;
+    max-width: 720px;
+    /* min-height: 973px; */
+    min-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+    background: #efeff4;
+}
+/*头部*/
+#content >header{
+    max-width: 720px;
+    width:100%;
+    height: 4rem;
+    border-bottom:1px solid #ddd;
+    position: fixed;
+    top:0;
+    background: #f9f9f9;
+	z-index:100;
+}
+#content >header > .m-jumpLink{
+    position: absolute;
+    left:10px;
+    top:0px;
+    width: 60px;
+}
+#content >header > .m-jmember{
+    position: absolute;
+    right:10px;
+    top:0px;
+    width: 60px;
+}
+#content >header > a > i{
+    font-size: 20px;
+}
+
+#content >header > span{
+    display: block;
+    margin:0 auto;
+    line-height:4rem;
+    text-align:center;
+    font-size:1.6rem;
+    color: #333;
+}
+#content >header > span >i{
+    color: #333;
+}
+#content >header > a{
+    font-size:1.6rem;
+    line-height:4rem;
+    position: absolute;
+    right:20px;
+    top:0px;
+    color: #7e7f83;
+}
+/*按钮*/
+.public_button{
+    display: block;
+    width:96%;
+    height:4rem;
+    color: #fff;
+    margin:0 auto;
+    border-radius:5px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height:4rem;
+    background: #df443b;
+    cursor: pointer;
+}
+.public_button:hover{
+    opacity: .9;
+}
+/*内容容器*/
+.content_section{
+    clear: both;;
+    margin-top:4rem;
+}
+/*版块容器*/
+.content_main{
+    clear: both;
+    background: #fff;
+    margin-bottom: .6rem;
+    height:100%;
+    overflow: hidden;
+}
+.content_section .content_main:last-child{
+    margin-bottom: 0;
+}
+/*公共label*/
+.public_labelAct{
+    height: 5rem;
+    line-height: 5rem;
+    color: #000;
+}
+.public_labelAct:after{
+    clear: both;
+    content: '';
+}
+.public_labelAct .m_title{
+    float: left;
+    padding-left: 10px;
+    font-size: 1.6rem;
+}
+.public_labelAct .m_sign{
+    float: right;
+    color: #c4c4c4;
+    width: 30px;
+    text-align: center;
+}
+.public_navigation{
+    position: absolute;
+    right:0px;
+    top:0;
+    z-index:10;
+}
+.public_navigation_bg{
+    position: fixed;
+    top:0;
+    left:auto;
+    right:auto;
+    z-index: 9999;
+    width:100%;
+    height:100%;
+    max-width: 720px;
+    background: rbga(255,255,255,.1);
+    z-index: 9;
+    display: none;
+}
+.public_navigation > i{
+    line-height:4rem;
+    font-size: 20px;
+    position: absolute;
+    right:10px;
+    top:0;
+}
+.public_navigation .public_navigation_layout{
+    width:15rem;
+    margin-top:3.5rem;
+    margin-right:5px;
+    position: relative;
+    padding-top: .6rem;
+    display: none;
+}
+.public_navigation .public_navigation_layout.open{
+    display: block;
+}
+.public_navigation .public_navigation_layout >span{
+    font-size: 30px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 1.2rem;
+    height: 1.2rem;
+    box-shadow: 1px 1px 1px 0px #ddd;
+    transform: rotate(225deg);
+    background: #fff;
+}
+.public_navigation .public_navigation_layout > nav{
+    display: block;
+    background: #fff;
+    padding: 0 1rem;
+    box-shadow: 0px 0px 2px 0px #ccc;
+}
+.public_navigation .public_navigation_layout > nav > a{
+    display: block;
+    line-height:4rem;
+    border-bottom:1px solid #efefef;
+}
+.public_navigation .public_navigation_layout > nav > a:last-child{
+    border:none;
+}
+.public_navigation .public_navigation_layout > nav > a >i{
+    margin:0 1rem;
+}
+/*下拉盒模型冲突*/
+.weui-pull-to-refresh__layer{
+    box-sizing:content-box;
+}

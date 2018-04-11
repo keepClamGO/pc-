@@ -1,0 +1,23 @@
+@charset "utf-8";
+@import url(../../css/master.css);
+*{margin:0;padding:0;box-sizing: border-box;}
+body{font-family:'微软雅黑','Arial', 'Verdana', 'Microsoft YaHei', '宋体';color:#4c4c4c;background:#fff;font-size:14px;transition: margin 500ms ease;overflow-x: hidden;}
+textarea{resize:none;}
+div,ul,li,dd,dt,h1,h2,h3,h4,h5,h6,dl,menu,nav{margin:0;padding:0;text-align:left;list-style:none;}
+a,img{star:expression(this.onFocus=this.blur());border:0;}
+a{color:#555;transition: all .3s;text-decoration:none;}
+a:hover{color:#e45050;}
+a,
+img,
+*:focus{outline:none;}
+.clear,
+.clearfix:before,
+.clearfix:after{height:0;clear:both;display:block;overflow:hidden;}
+.clearfix:before,
+.clearfix:after{content:"";}
+.ellipsis{display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+#webupload_tip{position: fixed; z-index: 99999; top:20%; margin-top:-25px; left:0; width: 100%; height: 50px; text-align: center; display:none;}
+#webupload_tip .webupload_body{position:relative; background: #f8f0cf; color:#c10000; border: 1px solid #ffecb5; border-radius: 4px; white-space: nowrap; height: 46px; line-height: 36px; font-size: 14px; margin-top:-23px; text-align: center;
+box-shadow: 0 1px 4px #333; padding: 5px 30px 5px 15px; display: -moz-inline-stack; display:inline-block; *display:inline; *zoom:1;}
+#webupload_tip .webupload_body span.tclose{position: absolute; right: 7px; cursor: pointer; top: 15px; font-size: 14px; color: #555; background: url(../images/close.png) no-repeat; width: 15px; height: 15px; background-size: cover;}
+.file-tips-word{margin-right:10px;}
